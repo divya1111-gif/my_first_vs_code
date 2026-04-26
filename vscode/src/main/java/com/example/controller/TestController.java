@@ -1,3 +1,7 @@
+
+
+
+
 package com.example.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,6 +14,7 @@ public class TestController {
     @GetMapping("/get")
     public String getDetails(){
         System.out.println("hi this is get mapping ");
+        System.out.println("hi this is get mapping v2 branch");
         return "hi";
     }
 
