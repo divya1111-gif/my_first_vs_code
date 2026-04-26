@@ -14,6 +14,7 @@ public class TestController {
     @GetMapping("/get")
     public String getDetails(){
         System.out.println("hi this is get mapping ");
+        System.out.println("hi this is get mapping v1 branch ");
         System.out.println("hi this is get mapping v2 branch");
         return "hi";
     }
